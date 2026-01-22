@@ -11,7 +11,7 @@ import { Plus, Search, LogOut, Loader2 } from "lucide-react";
 interface Task {
   id: string;
   title: string;
-  description: string;
+  description: string | null;
   status: string;
 }
 
